@@ -6,7 +6,7 @@ from sqlalchemy.orm import sessionmaker
 
 
 # executing the instructions from the "chinook" database
-db = create_engine("postgresql:///chinook")
+db = create_engine("postgresql:///newchinook")
 base = declarative_base()
 
 
